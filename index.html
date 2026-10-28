@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Entrelinhas: um clube para descobrir histórias, compartilhar leituras e encontrar seu próximo livro favorito.">
+  <title>Entrelinhas | Clube do Livro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#inicio" aria-label="Entrelinhas, página inicial">entre<span>linhas.</span></a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="navigation" id="navigation">
+      <a href="#sobre">O clube</a>
+      <a href="#livros">Leituras</a>
+      <a href="#encontros">Encontros</a>
+      <a class="nav-cta" href="#participar">Quero participar</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">UM CLUBE PARA QUEM AMA HISTÓRIAS</p>
+        <h1>Algumas histórias ficam com a gente <em>para sempre.</em></h1>
+        <p class="hero-description">Um espaço para desacelerar, descobrir novos mundos e conversar sobre os livros que fazem a vida ter mais entrelinhas.</p>
+        <a class="button button-primary" href="#livros">Descubra sua próxima leitura <span aria-hidden="true">↗</span></a>
+        <div class="hero-note"><span class="note-dot"></span> Leia no seu ritmo. Compartilhe do seu jeito.</div>
+      </div>
+      <div class="hero-image hero-image-one" role="img" aria-label="Livros e café em um ambiente acolhedor">
+        <div class="image-label"><span>01</span> Um convite à leitura</div>
+      </div>
+    </section>
+
+    <section class="intro section-wrap" id="sobre">
+      <div class="section-kicker">01 / SOBRE O ENTRELINHAS</div>
+      <div class="intro-content">
+        <h2>Mais do que terminar um livro, <em>é sobre tudo o que ele desperta.</em></h2>
+        <div>
+          <p>O Entrelinhas nasceu para aproximar pessoas por meio de histórias. Aqui, cada leitura abre espaço para novas ideias, conversas sinceras e pontos de vista diferentes.</p>
+          <p>Não precisa ler rápido, conhecer todos os clássicos ou ter uma estante enorme. Só precisa chegar com curiosidade.</p>
+          <a class="text-link" href="#encontros">Conheça nossa proposta <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-banner">
+      <div class="feature-image" role="img" aria-label="Cantinho de leitura com livros e luz natural"></div>
+      <div class="feature-copy">
+        <p class="eyebrow">UM CAPÍTULO DE CADA VEZ</p>
+        <h2>Seu próximo livro favorito pode estar aqui.</h2>
+        <p>Seleções pensadas para despertar curiosidade, emocionar e render boas conversas — sem pressão e sem competição.</p>
+        <a class="button button-light" href="#livros">Explorar indicações <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="books-section section-wrap" id="livros">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker">02 / ESTANTE COMPARTILHADA</div>
+          <h2>Histórias para <em>levar com você.</em></h2>
+        </div>
+        <div class="carousel-controls">
+          <button id="prev-book" class="circle-button" aria-label="Livro anterior">←</button>
+          <button id="next-book" class="circle-button" aria-label="Próximo livro">→</button>
+        </div>
+      </div>
+      <div class="book-carousel" id="book-carousel" aria-live="polite">
+        <article class="book-card">
+          <img src="https://covers.openlibrary.org/b/isbn/9780141439518-L.jpg" alt="Capa do livro Orgulho e Preconceito" class="book-cover">
+          <div class="book-info">
+            <p class="book-category">CLÁSSICO · ROMANCE</p>
+            <h3>Orgulho e Preconceito</h3>
+            <p class="book-author">Jane Austen</p>
+            <p class="book-description">Uma história sobre primeiras impressões, expectativas sociais e a coragem de rever aquilo que pensamos saber sobre alguém.</p>
+            <a class="text-link book-link" href="https://openlibrary.org/isbn/9780141439518" target="_blank" rel="noopener noreferrer">Conhecer o livro ↗</a>
+          </div>
+        </article>
+        <article class="book-card">
+          <img src="https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg" alt="Capa do livro O Sol é para Todos" class="book-cover">
+          <div class="book-info">
+            <p class="book-category">FICÇÃO · SOCIEDADE</p>
+            <h3>O Sol é para Todos</h3>
+            <p class="book-author">Harper Lee</p>
+            <p class="book-description">Pelo olhar de uma criança, o livro aborda justiça, empatia e as contradições presentes na sociedade.</p>
+            <a class="text-link book-link" href="https://openlibrary.org/isbn/9780061120084" target="_blank" rel="noopener noreferrer">Conhecer o livro ↗</a>
+          </div>
+        </article>
+        <article class="book-card">
+          <img src="https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg" alt="Capa do livro O Grande Gatsby" class="book-cover">
+          <div class="book-info">
+            <p class="book-category">CLÁSSICO · FICÇÃO</p>
+            <h3>O Grande Gatsby</h3>
+            <p class="book-author">F. Scott Fitzgerald</p>
+            <p class="book-description">Entre festas e sonhos grandiosos, uma narrativa sobre desejo, memória e a busca por uma vida idealizada.</p>
+            <a class="text-link book-link" href="https://openlibrary.org/isbn/9780743273565" target="_blank" rel="noopener noreferrer">Conhecer o livro ↗</a>
+          </div>
+        </article>
+      </div>
+      <p class="carousel-hint">Use as setas para conhecer outras leituras.</p>
+    </section>
+
+    <section class="meet-section" id="encontros">
+      <div class="meet-copy">
+        <div class="section-kicker">03 / ENCONTROS</div>
+        <h2>Uma leitura pode ser solitária. <em>A conversa não precisa ser.</em></h2>
+        <p>Nossos encontros são convites para trocar impressões, escutar outras interpretações e descobrir detalhes que talvez tenham passado despercebidos.</p>
+        <ul class="meet-list">
+          <li><span>01</span> Conversas leves, sem respostas certas</li>
+          <li><span>02</span> Leituras no seu próprio ritmo</li>
+          <li><span>03</span> Espaço aberto para novas pessoas</li>
+        </ul>
+      </div>
+      <div class="meet-image" role="img" aria-label="Livros organizados em uma mesa de leitura"></div>
+    </section>
+
+    <section class="join-section" id="participar">
+      <p class="eyebrow">SUA PRÓXIMA HISTÓRIA COMEÇA AQUI</p>
+      <h2>Vamos virar essa página juntos?</h2>
+      <p>Receba novidades, indicações e informações sobre os próximos encontros do Entrelinhas.</p>
+      <form id="join-form" class="join-form">
+        <label class="sr-only" for="email">Seu e-mail</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+        <button class="button button-primary" type="submit">Quero participar <span aria-hidden="true">↗</span></button>
+      </form>
+      <p class="form-message" id="form-message" role="status"></p>
+      <p class="form-note">Projeto acadêmico demonstrativo. O formulário não envia dados para um servidor.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="logo footer-logo" href="#inicio">entre<span>linhas.</span></a>
+    <p>Histórias aproximam. Conversas transformam.</p>
+    <a href="#inicio" class="back-top">Voltar ao topo ↑</a>
+    <small>© 2026 Entrelinhas — projeto acadêmico de landing page.</small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

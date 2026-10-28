@@ -1,0 +1,37 @@
+CHECKPOINT 6 — ENTRELINHAS | GUIA GERAL
+
+Esta pasta reúne TODO o material do projeto em um único lugar:
+- index.html: estrutura da landing page.
+- style.css: cores, tipografia, layout e adaptação para celular.
+- script.js: menu móvel, controles do carrossel e mensagem do formulário.
+- README.md: instruções rápidas para abrir o projeto.
+- 01_proposta_e_objetivo.md: conceito, público e estrutura.
+- 02_referencias_visuais.md: cinco referências e orientação para registrar capturas.
+- 03_identidade_visual.md: paleta, tipografia e decisões de design.
+- 04_prompts_utilizados.md: prompts-modelo para registrar o processo.
+- 05_registro_de_correcoes.md: fichas para preencher depois de testar.
+- 06_analise_critica_e_resultado.md: análise crítica e campos de entrega.
+
+COMO ABRIR
+1. Extraia o ZIP.
+2. No VS Code, escolha File > Open Folder e abra esta pasta.
+3. Abra index.html no navegador. Se tiver a extensão Live Server, clique com o botão direito em index.html e escolha Open with Live Server.
+4. Deixe todos os arquivos na mesma pasta; os links relativos entre HTML, CSS e JavaScript dependem disso.
+
+PALETA
+- Verde: #4A5D4E
+- Fundo: #F8F9FA
+- Texto: #2D3142
+- Botões: #D97450
+
+OBSERVAÇÕES IMPORTANTES
+- As imagens e fontes remotas dependem de conexão com a internet.
+- O formulário é demonstrativo e não envia nem armazena e-mails.
+- Abra as cinco referências e faça capturas de tela reais para documentar a pesquisa.
+- Os prompts incluídos são modelos. Para cumprir o enunciado com honestidade, registre os prompts que você realmente enviar à IA, na ordem em que forem usados.
+- Na ficha de correções, descreva somente problemas que você realmente observar durante os testes.
+- Antes da entrega, teste navegação, carrossel, formulário, imagens, links e layout no celular.
+- Preencha os links de GitHub e deploy no arquivo 06_analise_critica_e_resultado.md.
+
+COMENTÁRIOS DO PROCESSO
+A direção visual é editorial, minimalista e acolhedora. O verde natural cria a identidade principal; o fundo claro mantém a página leve; o texto escuro facilita a leitura; e o terracota destaca as ações. Os títulos usam uma fonte serifada e os textos usam uma fonte sem serifa. A página começa apresentando a marca, explica a proposta, mostra livros, apresenta os encontros e termina com um convite.
